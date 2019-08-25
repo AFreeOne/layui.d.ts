@@ -438,20 +438,20 @@ declare module layui {
     }
 
     interface TreeClickObject {
-        data: object;
+        data: TreeNode;
         state: "open" | "close" | "normal";
         elem: string | HTMLElement;
     }
 
     interface TreeCheckObject {
-        data: object;
+        data: TreeNode;
         checked: "open" | "close" | "normal";
         elem: string | HTMLElement;
     }
 
     interface TreeOperateObject {
         type: "add" | "edit" | "del";
-        data: object;
+        data: TreeNode;
         elem: string | HTMLElement;
     }
 
