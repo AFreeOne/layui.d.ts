@@ -1,0 +1,45 @@
+{
+  "_from": "@types/layui-src",
+  "_id": "@types/layui-src",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@types/layui-src",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@types/layui-src",
+    "name": "@types/layui-src",
+    "escapedName": "@types%2fjquery",
+    "scope": "@types",
+    "rawSpec": "3.3.30",
+    "saveSpec": null,
+    "fetchSpec": "3.3.30"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "",
+  "_shasum": "",
+  "_spec": "@types/layui-src",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/sizzle": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for jquery",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/layui-src",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/layui-src"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.3",
+  "types": "index",
+  "typesPublisherContentHash": "df62dc4dca38a444be365d9e0268e088a19ae08d0a4464c56083e0aea9df2c54",
+  "version": "3.3.30"
+}
