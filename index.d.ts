@@ -309,7 +309,7 @@ declare module layui {
         title?: string;
         width?: string | number;
         minWidth?: number;
-        type?: "normal" | "checkbox" | "radio" | "space" | "numbers";
+        type?: string;
         LAY_CHECKED?: boolean;
         fixed?: string;
         hide?: boolean;
@@ -372,6 +372,7 @@ declare module layui {
         cols?: TableColumnOption[][];
         url?: string;
         toolbar?: string | HTMLElement | boolean;
+        defaultToolbar?:string[];
         height?: number | string;
         width?: number;
         cellMinWidth?: number;
