@@ -372,7 +372,7 @@ declare module layui {
         cols?: TableColumnOption[][];
         url?: string;
         toolbar?: string | HTMLElement | boolean;
-        defaultToolbar?:string[];
+        defaultToolbar?:any[];
         height?: number | string;
         width?: number;
         cellMinWidth?: number;
